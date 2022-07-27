@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Photo<span>pi</span>X</div>
+        <div class="menu">
+          <a href=" #" class="menu active">Home</a>
+          <a href=" #">About</a>
+          <a href=" #">Galleries</a>
+          <a href=" #">Contact Us</a>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Login</a>
+        </div>
+      </nav>
+      <section class="headertxt">
+        <i class="fa-solid fa-camera" id="camera"></i>
+        <h1 data-aos="fade-up">
+          Capturing the Moments that captivate your heart
+        </h1>
+        <input type="text" name="" placeholder="Search Here..." />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </section>
+    </header>
+    <section class="filt-gallery">
+      <div class="portfolio">
+        <ul>
+          <li class="active" data-filter="*">All</li>
+          <li data-filter=".nature">Nature</li>
+          <li data-filter=".fashion">Fashion</li>
+          <li data-filter=".solid">Solid</li>
+        </ul>
+      </div>
+      <div class="portfolio-images">
+        <div
+          class="images nature"
+          data-aos="flip-left"
+          data-aos-offset="100"
+          data-aos-delay="200"
+        >
+          <img src="images/nature1.jpg" height="100" width="100" />
+        </div>
+        <div
+          class="images fashion"
+          data-aos="flip-left"
+          data-aos-offset="100"
+          data-aos-delay="400"
+        >
+          <img src="images/fashion1.jpg" height="100" width="100" />
+        </div>
+        <div
+          class="images solid"
+          data-aos="flip-left"
+          data-aos-offset="100"
+          data-aos-delay="600"
+        >
+          <img src="images/solid1.jpg" height="100" width="100" />
+        </div>
+        <div class="images nature">
+          <img src="images/nature2.jpg" height="100" width="100" />
+        </div>
+        <div class="images fashion">
+          <img src="images/fashion2.jpg" height="100" width="100" />
+        </div>
+        <div class="images solid">
+          <img src="images/solid2.jpg" height="100" width="100" />
+        </div>
+        <div class="images nature">
+          <img src="images/nature3.jpg" height="100" width="100" />
+        </div>
+        <div class="images fashion">
+          <img src="images/fashion3.jpg" height="100" width="100" />
+        </div>
+        <div class="images solid">
+          <img src="images/solid3.jpg" height="100" width="100" />
+        </div>
+      </div>
+    </section>
+    <section class="member">
+      <div class="member-info">
+        <h1>Our <span>Information</span></h1>
+        <p>what our members say</p>
+      </div>
+      <div class="member-card">
+        <img src="images/user1.jpg" width="100" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum,
+          obcaecati commodi alias eligendi nam totam quae cum dolores eum unde
+          tempora inventore id natus corporis soluta nostrum sunt quos
+          molestias.
+        </p>
+        <h2>Kelly Simons</h2>
+        <div class="icon">
+          <img src="images/fb.png" />
+          <img src="images/insta.png" />
+          <img src="images/whatsapp.png" />
+        </div>
+      </div>
+      <div class="mem-images">
+        <img src="images/clouds.jpg" alt="" />
+        <img src="images/london.jpg" alt="" />
+        <img src="images/veggie.jpg" alt="" />
+        <img src="images/wine.jpg" alt="" />
+        <img src="images/lazy.jpg" alt="" />
+        <img src="images/pink.jpg" alt="" />
+      </div>
+    </section>
+    <footer>
+      <div class="newsletter">
+        <div>
+          <h2>Subscribe our newsletter</h2>
+          <p>We're a team who care about our work</p>
+        </div>
+        <div class="subbox">
+          <label>
+            <input type="text" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </label>
+        </div>
+      </div>
+      <div class="location">
+        <div>
+          <h1>Location</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          </p>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+        </div>
+        <div class="useful-links">
+          <h1>Useful Links</h1>
+          <p>About Us</p>
+          <p>Gallery</p>
+          <p>Blog-posts</p>
+          <p>Pricing plans</p>
+        </div>
+        <div>
+          <h1>Details</h1>
+          <p>Photographers</p>
+          <p>Gallery</p>
+          <p>Pricing plans</p>
+        </div>
+        <div>
+          <h1>Help & Support</h1>
+          <p>Privacy Policy</p>
+          <p>Terms & conditions</p>
+          <p>Customer Care</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+      $(".portfolio-images").isotope({
+        // options
+        itemSelector: ".images",
+        layoutMode: "fitRows",
+      });
+
+      $(".portfolio ul li").click(function () {
+        $(".portfolio ul li").removeClass("active");
+        $(this).addClass("active");
+
+        var selector = $(this).attr("data-filter");
+        $(".portfolio-images").isotope({ filter: selector });
+        return false;
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
